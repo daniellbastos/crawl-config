@@ -1,6 +1,3 @@
-python-decouple==3.8
 playwright==1.40.0
 undetected-playwright==0.2.0
 anticaptchaofficial==1.0.59
-aiohttp
-beautifulsoup4

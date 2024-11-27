@@ -25,7 +25,11 @@ with codecs.open(os.path.join(here, 'CHANGES.rst'), encoding='utf-8') as f:
     changelog = f.read()
 
 
-install_requirements = []
+install_requirements = [
+    "playwright==1.40.0",
+    "undetected-playwright==0.2.0",
+    "anticaptchaofficial==1.0.59",
+]
 tests_requirements = []
 
 
